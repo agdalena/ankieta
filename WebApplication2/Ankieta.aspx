@@ -1,6 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Template.Master" CodeBehind="Ankieta.aspx.cs" Inherits="WebApplication2.Ankieta" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="Ankieta.aspx.cs" Inherits="WebApplication2.Ankieta" %>
 
-<asp:Content ID="ankietaContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
     <div>
     
         Imię:<asp:TextBox ID="tbImie" runat="server" Width="185px"></asp:TextBox><br />
@@ -16,6 +23,9 @@
     
     </div>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Dalej" />
-</asp:Content>
+    </form>
+</body>
+</html>
+
 
 

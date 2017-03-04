@@ -16,6 +16,7 @@ namespace WebApplication2
             lbEmail.Text = getParam("email");
             lbStanowisko.Text = getParam("stanowisko");
             lData.Text = getParam("data");
+            lLat.Text = getParam("doswiadczenie");
 
             lbSystemy.Text = getSystemy();
         }

@@ -1,7 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Template.Master" CodeBehind="ankieta_programista.aspx.cs" Inherits="WebApplication2.ankieta_programista" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ankieta_programista.aspx.cs" Inherits="WebApplication2.ankieta_programista" %>
 
+<!DOCTYPE html>
 
-<asp:Content ID="programistaContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
    
         <asp:Label ID="lbImie" runat="server" Text="Label"></asp:Label> <asp:Label ID="lbNazwisko" runat="server" Text="Label"></asp:Label> &nbsp;ubiega się o stanowisko programisty. Zaznacz znane języki programowania
         <asp:CheckBoxList ID="cblJezykiProgramowania" runat="server">
@@ -24,9 +31,12 @@
         Od kiedy możesz zacząć pracę:
         <asp:Calendar ID="Calendar" runat="server"></asp:Calendar>
         <br />
+            </div>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Zatwierdź" />
 
 
-</asp:Content>
+    </form>
+</body>
+</html>
 
 

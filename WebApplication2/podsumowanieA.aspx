@@ -1,7 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="podsumowanieA.aspx.cs" Inherits="WebApplication2.podsumowanieA" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="podsumowanieA.aspx.cs" Inherits="WebApplication2.podsumowanieA" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
         <div>
     
         Imię:<asp:Label ID="lbImie" runat="server" Text="Label"></asp:Label>
@@ -27,4 +33,6 @@
         
     
     </div>
-</asp:Content>
+    </form>
+</body>
+</html>
