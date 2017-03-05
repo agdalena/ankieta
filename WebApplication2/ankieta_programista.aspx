@@ -4,13 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Programista</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="header">
+        <img src="img/logoprog.png" />
+    </div>
+    <div class="centerr">
     <form id="form1" runat="server">
-        <div>
-   
-        <asp:Label ID="lbImie" runat="server" Text="Label"></asp:Label> <asp:Label ID="lbNazwisko" runat="server" Text="Label"></asp:Label> &nbsp;ubiega się o stanowisko programisty. Zaznacz znane języki programowania
+        <asp:Label ID="lbImie" runat="server" Text="Label" class="label"></asp:Label> <asp:Label ID="lbNazwisko" runat="server" Text="Label" class="label"></asp:Label> &nbsp;ubiega się o stanowisko programisty. Zaznacz znane języki programowania
         <asp:CheckBoxList ID="cblJezykiProgramowania" runat="server">
             <asp:ListItem Value="C">C</asp:ListItem>
             <asp:ListItem Value="C++">C++</asp:ListItem>
@@ -31,11 +34,13 @@
         Od kiedy możesz zacząć pracę:
         <asp:Calendar ID="Calendar" runat="server"></asp:Calendar>
         <br />
-            </div>
+            
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Zatwierdź" />
-
-
     </form>
+    </div>
+    <div class="footer">
+        by Magdalena Brzozowska 2017
+        </div>
 </body>
 </html>
 

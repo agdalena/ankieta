@@ -95,12 +95,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ankieta_administrator.aspx" />
+    <Content Include="img\c#.png" />
+    <Content Include="img\C.png" />
+    <Content Include="img\cpp.png" />
+    <Content Include="img\java.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logoadmin.png" />
+    <Content Include="img\logoprog.png" />
+    <Content Include="img\redhat.png" />
+    <Content Include="img\solaris.png" />
+    <Content Include="img\windows.png" />
     <Content Include="index.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="podsumowanieA.aspx" />
+    <Content Include="style.css" />
     <Content Include="Template.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
